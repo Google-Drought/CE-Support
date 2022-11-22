@@ -115,7 +115,7 @@ a.btn {
 #docsSearch {
     color: #fff;
     background: #569ef5;
-    background: url(https://rangelands.app/assets/images/HelpScout/Banner.jpg);
+    background: url(https://ericrjensen.github.io/CE-Support/banner.jpg);
     background-size: cover;
     background-position: 20% 32%;
     padding: 0em 0 5em 0;
@@ -193,13 +193,13 @@ a.btn {
 }
 
 #searchBar .search-query:focus {
-    box-shadow: 0 0 0 2px #47b072;
+    box-shadow: 0 0 0 2px #519bf7;
 }
 
 #searchBar button {
     color: #fff;
     text-shadow: none;
-    background: #47b072;
+    background: #519bf7;
     border-radius: 0 3px 3px 0;
     border: 0;
     font-size: 16px;
@@ -209,7 +209,7 @@ a.btn {
 }
 
 #searchBar button:hover {
-    background: #388c46;
+    background: #1769e6;
 }
 
 #searchBar button .icon-search {
@@ -479,7 +479,6 @@ a.btn {
 }
     
 
-  
     
 
 #fullArticle h1,

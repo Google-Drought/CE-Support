@@ -319,37 +319,54 @@ a.btn {
 }
 
 /* Collection thumbnail - add as many you want, based on the number of collections you have. For finding your category number, you can find each collection's unique number in their URL */
-#category-5 h3:before {
-    background: url('https://rangelands.app/assets/images/HelpScout/Icon_WhatIs.png');
-    background-size: 60%;
+/* Get Started */
+#category-4 h3:before {
+    background: url('https://ericrjensen.github.io/CE-Support/GetStarted.png');
+    background-size: 40%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
-
+/* Using the Research App */
 #category-6 h3:before {
-    background: url('https://rangelands.app/assets/images/HelpScout/Icon_NewTo.png');
+    background: url('https://ericrjensen.github.io/CE-Support/Using.png');
+    background-size: 30%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/* Datasets */
+#category-10 h3:before {
+    background: url('https://ericrjensen.github.io/CE-Support/Datasets.png');
     background-size: 40%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
+/* BLM */
+#category-9 h3:before {
+    background: url('https://ericrjensen.github.io/CE-Support/BLM.png');
+    background-size: 30%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/* APIs */
 #category-7 h3:before {
-    background: url('https://rangelands.app/assets/images/HelpScout/Icon_HowTo.png');
-    background-size: 40%;
+    background: url('https://ericrjensen.github.io/CE-Support/APIs.png');
+    background-size: 30%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
-#category-51 h3:before {
-    background: url('https://rangelands.app/assets/images/HelpScout/Icon_FAQ.png');
-    background-size: 40%;
+/* Troubleshooting*/
+#category-8 h3:before {
+    background: url('https://ericrjensen.github.io/CE-Support/Troubleshooting.png');
+    background-size: 30%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
-
 
 /* Home categories */
-
 .collection-category .category-list {
     display: flex;
     flex-wrap: wrap;
@@ -418,7 +435,6 @@ a.btn {
     
     
 /* Article page */
-
 #main-content {
     background: none;
 }
@@ -477,9 +493,6 @@ a.btn {
 #sidebar .nav-list .active a:focus .icon-arrow {
     display: none;
 }
-    
-
-    
 
 #fullArticle h1,
 #fullArticle h2,
@@ -592,9 +605,7 @@ a.btn {
 [type=radio]:checked ~ label ~ .content {
     z-index: 1;
 }
-    
-    
-    
+
 /*Callout text
 https://codepen.io/superjaberwocky/pen/AXdEWj*/
 .callout {
@@ -630,7 +641,6 @@ code {
 }
 
 /* Articles list */
-
 #categoryHead h1 {
     margin-top: 0;
     margin-bottom: 40px;

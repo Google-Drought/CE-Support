@@ -73,7 +73,7 @@ a {
 .btn {
     display: inline-block;
     padding: 11px 10px;
-    color: ;
+    color: #1769e6;
     margin-bottom: 0;
     font-size: 15px;
     line-height: 18px;
@@ -110,7 +110,6 @@ a.btn {
 
 /* Menu and search */
 
-
 /* Banner section */
 #docsSearch {
     color: #fff;
@@ -119,6 +118,10 @@ a.btn {
     background-size: cover;
     background-position: 20% 32%;
     padding: 0em 0 5em 0;
+}
+#docsSearch h1{
+    text-shadow: 2px 2px 2px #3b3b3b; 
+    padding-top: 36px;
 }
 
 .navbar,
@@ -139,6 +142,11 @@ a.btn {
 .navbar .nav li a,
 .navbar .icon-private-w {
     color: #3e4245;
+}
+
+.category-list {
+    text-align: center !important;
+    margin: 1em 1em 1em 1em;
 }
 
 @media (min-width: 769px) {
@@ -374,6 +382,11 @@ a.btn {
     align-content: flex-start;
 }
 
+.category-list {
+    text-align: center !important;
+    margin: 1em 1em 1em 1em;
+}
+
 .category-list .category {
     flex: 0 0 32%;
     margin: 0 10px 20px -1px;
@@ -395,16 +408,14 @@ a.btn {
 @media (max-width: 480px) and (max-width: 768px) {
 	.category-list {
         text-align: center;
+        width: 100%;
 	}
 }
 .category-list .category:hover {
     background-color: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .04);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.171);
 }
-.category-list {
-    text-align: center;
-    margin: 1em 1em 1em 1em;
-}
+
 .collection-category h2 {
     text-align: center;
     font-weight: 500;
@@ -421,7 +432,7 @@ a.btn {
 .category-list .category h3:before {
     content: " ";
     display: block;
-    height: 180px;
+    height: 120px;
     width: inherit;
     margin: 0 0 20px;
     background: #EDEDED;
@@ -432,8 +443,6 @@ a.btn {
     margin-top: 0;
 }
 
-    
-    
 /* Article page */
 #main-content {
     background: none;

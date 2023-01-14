@@ -330,7 +330,7 @@ a.btn {
 /* Get Started */
 #category-4 h3:before {
     background: url('https://ericrjensen.github.io/CE-Support/GetStarted.png');
-    background-size: 40%;
+    background-size: 30%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -345,14 +345,14 @@ a.btn {
 /* Datasets */
 #category-10 h3:before {
     background: url('https://ericrjensen.github.io/CE-Support/Datasets.png');
-    background-size: 40%;
+    background-size: 30%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 /* BLM */
 #category-9 h3:before {
-    background: url('https://ericrjensen.github.io/CE-Support/BLM.png');
+    background: url('https://ericrjensen.github.io/CE-Support/DecisionSupport.png');
     background-size: 30%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -668,4 +668,16 @@ code {
 
 .articleList a {
     margin-left: 0;
+}
+
+
+
+
+.center::after {
+    font-size: 0.9em;
+    position: absolute;
+    right: 43%;
+    margin-top: -3em;
+    color: #9b9b9b;
+    content: "All icons courtesy of Freepik";
 }

@@ -358,7 +358,7 @@ a.btn {
 #fullArticle h3,
 #fullArticle h4,
 #fullArticle h5 {
-    margin: 0px 0 20px 0;
+    margin: 0px 0 10px 0;
     color: #3e4245;
 }
 
@@ -375,8 +375,12 @@ a.btn {
 #fullArticle dd,
 #fullArticle table {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 24px;
     color: #5c5e5f;
+}
+
+#fullArticle p {
+    margin: 0 0 16px 0;
 }
 
 #fullArticle p:last-child {

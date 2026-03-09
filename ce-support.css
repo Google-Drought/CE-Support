@@ -28,6 +28,31 @@
     font-weight: 500;
 }
 
+/* ----------------------------------- Documentation Migration Banner ----------------------------------- */
+
+.ce-migration-banner {
+    background: #ffdb4d;
+    color: #3e4245;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid #e6c200;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.ce-migration-banner a {
+    color: #1769e6;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ce-migration-banner a:hover {
+    color: #0f52b5;
+}
+
 /* ------------------------------------- General styling  ------------------------------------------- */
 
 /* Foundation */
